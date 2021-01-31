@@ -1,60 +1,63 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Baner GSAP </title>
-		<style type="text/css">
-			@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
-			
-			html, body {
-			  width: 100%;
-			  height: 100%;
-			  margin: 0px;
-			  font-family: 'Open Sans', sans-serif;
-			}
-			
-			body {  }
-			
-			a#myAdLink {
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Baner GSAP </title>
+	<style type="text/css">
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+
+		a#myAdLink {
 			display: block;
-			position: relative; 
+			position: relative;
 			background-color: #2480d6;
 			width: 650px;
 			height: 200px;
-			}
-			
-			#myAd {
-				position: relative;
-				width: 650px;
-				height: 200px;
-				overflow: hidden;
-				opacity: 1;
-				
-			}
-			
-			#myAd .myAd_Img {
-				position: absolute;
-				background: url(graphics.png) 0 0 no-repeat;
-			}
-			
-			#myAd #myAd_clouds{
-			
-				
-				width: inherit;
-				height: inherit;
-				background-repeat: repeat-x;
-				background-position: 0px 0px;
-			}
-			
-			#myAd #myAd_photo{
-				left: 0px;
-				bottom: 0px;
-				width: inherit;
-				height: 143px;
-				background-position: 0px -325px;
-			}
-			
-			#myAd #myAd_txt1, #myAd #myAd_txt2 {
+		}
+
+		#myAd {
+			position: relative;
+			width: 650px;
+			height: 200px;
+			overflow: hidden;
+			opacity: 1;
+
+		}
+
+		#myAd .myAd_Img {
+			position: absolute;
+			background: url(graphics.png) 0 0 no-repeat;
+		}
+
+		#myAd #myAd_clouds {
+
+
+			width: inherit;
+			height: inherit;
+			background-repeat: repeat-x;
+			background-position: 0px 0px;
+		}
+
+		#myAd #myAd_photo {
+			left: 0px;
+			bottom: 0px;
+			width: inherit;
+			height: 143px;
+			background-position: 0px -325px;
+		}
+
+		#myAd #myAd_txt1,
+		#myAd #myAd_txt2 {
 			position: absolute;
 			text-transform: uppercase;
 			color: #fff;
@@ -64,105 +67,114 @@
 			left: 0px;
 			text-shadow: 0px 3px 3px rgba(0, 0, 102, 0.5);
 			text-align: center;
-			}
-			
-			#myAd #myAd_txt1 span {
+		}
+
+		#myAd #myAd_txt1 span {
 			display: inline-block;
 			position: relative;
-			}
-			
-			#myAd #myAd_marker {
+		}
+
+		#myAd #myAd_marker {
 			position: absolute;
 			width: 60px;
 			height: 95px;
 			background-position: -243px -230px;
 			top: 90px;
 			left: 290px;
-			}
-			
-			#myAd #myAd_shadow {
+		}
+
+		#myAd #myAd_shadow {
 			position: absolute;
 			width: 35px;
 			height: 16px;
 			background-position: -311px -236px;
 			top: 175px;
 			left: 306px;
-			}
-			
-			#myAd #myAd_txt3 {
+		}
+
+		#myAd #myAd_txt3 {
 			position: absolute;
 			width: 510px;
 			height: 28px;
 			background-position: -2px -202px;
 			top: 58px;
 			left: 73px;
-			}
-			
-			#myAd #myAd_surfboard {
+		}
+
+		#myAd #myAd_surfboard {
 			position: absolute;
 			width: 237px;
 			height: 62px;
 			background-position: -2px -233px;
 			top: 110px;
 			left: 390px;
-			}
-		</style>
-	</head>
-	<body>
+		}
+	</style>
+</head>
 
-		<a href="http://google.com" target="_blank" id="myAdLink">
-			<div id="myAd">
-				<div class="myAd_Img" id="myAd_clouds"></div>
-				<div class="myAd_Img" id="myAd_photo"></div>
-				<div id="myAd_txt1">
-				<span id="myAd_txt1_ltr_1">F</span><span id="myAd_txt1_ltr_2">e</span><span id="myAd_txt1_ltr_3">e</span><span id="myAd_txt1_ltr_4">l</span><span id="myAd_txt1_ltr_5">i</span><span id="myAd_txt1_ltr_6">n</span><span id="myAd_txt1_ltr_7">g</span> <span id="myAd_txt1_ltr_8">s</span><span id="myAd_txt1_ltr_9">t</span><span id="myAd_txt1_ltr_10">r</span><span id="myAd_txt1_ltr_11">e</span><span id="myAd_txt1_ltr_12">s</span><span id="myAd_txt1_ltr_13">s</span><span id="myAd_txt1_ltr_14">e</span><span id="myAd_txt1_ltr_15">d</span><span id="myAd_txt1_ltr_16">?</span>
-				</div>
-				<div id="myAd_txt2">You could be here!</div>
-				<div class="myAd_Img" id="myAd_shadow"></div>
-				<div class="myAd_Img" id="myAd_txt3"></div>
-				<div class="myAd_Img" id="myAd_marker"></div>
-				<div class="myAd_Img" id="myAd_surfboard"></div>
-				
+<body>
+
+	<a href="http://google.com" target="_blank" id="myAdLink">
+		<div id="myAd">
+			<div class="myAd_Img" id="myAd_clouds"></div>
+			<div class="myAd_Img" id="myAd_photo"></div>
+			<div id="myAd_txt1">
+				<span id="myAd_txt1_ltr_1">F</span><span id="myAd_txt1_ltr_2">e</span><span
+					id="myAd_txt1_ltr_3">e</span><span id="myAd_txt1_ltr_4">l</span><span
+					id="myAd_txt1_ltr_5">i</span><span id="myAd_txt1_ltr_6">n</span><span id="myAd_txt1_ltr_7">g</span>
+				<span id="myAd_txt1_ltr_8">s</span><span id="myAd_txt1_ltr_9">t</span><span
+					id="myAd_txt1_ltr_10">r</span><span id="myAd_txt1_ltr_11">e</span><span
+					id="myAd_txt1_ltr_12">s</span><span id="myAd_txt1_ltr_13">s</span><span
+					id="myAd_txt1_ltr_14">e</span><span id="myAd_txt1_ltr_15">d</span><span
+					id="myAd_txt1_ltr_16">?</span>
 			</div>
-		</a>
-		
-		
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-		
-		<script>
-		(function(){
-			
-			var tl1 = new TimelineMax({repeat: -1});
-			
+			<div id="myAd_txt2">You could be here!</div>
+			<div class="myAd_Img" id="myAd_shadow"></div>
+			<div class="myAd_Img" id="myAd_txt3"></div>
+			<div class="myAd_Img" id="myAd_marker"></div>
+			<div class="myAd_Img" id="myAd_surfboard"></div>
+
+		</div>
+	</a>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+	<script>
+		(function () {
+
+			var tl1 = new TimelineMax({ repeat: -1 });
+
 			tl1
-			//.to('#myAd', .3, {opacity: 1})
-			.from('#myAd_txt2', 1.3, {top: -100, ease: Power2.easeOut})
-			//.to('#myAd_txt1', 1.3, {top: 210, ease: Power2.easeOut}, '-=.9')
-			.to('#myAd_txt1_ltr_1', 2, {top: 210, left: -70, rotation: -100, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_2', 2, {top: 210, left: -60, rotation: 30, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_3', 2, {top: 210, left: -50, rotation: -10, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_4', 2, {top: 210, left: -40, rotation: 120, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_5', 2, {top: 210, left: -30, rotation: 10, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_6', 2, {top: 210, left: -20, rotation: -40, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_7', 2, {top: 210, left: -10, rotation: -70, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_8', 2, {top: 210, left: 0, rotation: 90, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_9', 2, {top: 210, left: 10, rotation: 50, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_10', 2, {top: 210, left: 20, rotation: 77, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_11', 2, {top: 210, left: 30, rotation: -39, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_12', 2, {top: 210, left: 40, rotation: 40, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_13', 2, {top: 210, left: 50, rotation: -150, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_14', 2, {top: 210, left: 60, rotation: -10, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_15', 2, {top: 210, left: 70, rotation: 55, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.to('#myAd_txt1_ltr_16', 2, {top: 210, left: 80, rotation: -100, ease: Power2.easeOut}, 'myAd_txt1_ltr-=.9')
-			.from('#myAd_marker', 1.2, {top: -110, ease: Bounce.easeOut}, '-=.5')
-			.from('#myAd_shadow', 1.2, {opacity: 0, ease: Bounce.easeOut}, '-=1.2')
-			.from('#myAd_txt3', 1.2, {scale: .2, opacity: 0, ease: Power2.easeOut}, '-=.9')
-			.from('#myAd_surfboard', 1.3, {top: 250, rotation: -130, left: -300, ease: Back.easeOut});
-			
-			var tl2 = new TimelineMax({repeat: -1});
-			tl2.from('#myAd_clouds', 62, {backgroundPosition: "649px 0", ease: Power0.easeOut});
-		
+				//.to('#myAd', .3, {opacity: 1})
+				.from('#myAd_txt2', 1.3, { top: -100, ease: Power2.easeOut })
+				//.to('#myAd_txt1', 1.3, {top: 210, ease: Power2.easeOut}, '-=.9')
+				.to('#myAd_txt1_ltr_1', 2, { top: 210, left: -70, rotation: -100, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_2', 2, { top: 210, left: -60, rotation: 30, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_3', 2, { top: 210, left: -50, rotation: -10, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_4', 2, { top: 210, left: -40, rotation: 120, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_5', 2, { top: 210, left: -30, rotation: 10, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_6', 2, { top: 210, left: -20, rotation: -40, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_7', 2, { top: 210, left: -10, rotation: -70, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_8', 2, { top: 210, left: 0, rotation: 90, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_9', 2, { top: 210, left: 10, rotation: 50, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_10', 2, { top: 210, left: 20, rotation: 77, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_11', 2, { top: 210, left: 30, rotation: -39, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_12', 2, { top: 210, left: 40, rotation: 40, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_13', 2, { top: 210, left: 50, rotation: -150, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_14', 2, { top: 210, left: 60, rotation: -10, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_15', 2, { top: 210, left: 70, rotation: 55, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.to('#myAd_txt1_ltr_16', 2, { top: 210, left: 80, rotation: -100, ease: Power2.easeOut }, 'myAd_txt1_ltr-=.9')
+				.from('#myAd_marker', 1.2, { top: -110, ease: Bounce.easeOut }, '-=.5')
+				.from('#myAd_shadow', 1.2, { opacity: 0, ease: Bounce.easeOut }, '-=1.2')
+				.from('#myAd_txt3', 1.2, { scale: .2, opacity: 0, ease: Power2.easeOut }, '-=.9')
+				.from('#myAd_surfboard', 1.3, { top: 250, rotation: -130, left: -300, ease: Back.easeOut });
+
+			var tl2 = new TimelineMax({ repeat: -1 });
+			tl2.from('#myAd_clouds', 62, { backgroundPosition: "649px 0", ease: Power0.easeOut });
+
 		}());
-		</script>
-	</body>
+	</script>
+</body>
+
 </html>
